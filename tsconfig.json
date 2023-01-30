@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "moduleResolution": "node",
     "target": "es2020",
     "module": "commonjs",
     "outDir": "dist",
@@ -7,6 +8,9 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "esModuleInterop": true,
+    "lib": [
+      "es5", "es6", "dom", "dom.iterable",
+  ],
     "rootDirs": ["src", "tests"],
     "baseUrl": "src",
     "paths": {
